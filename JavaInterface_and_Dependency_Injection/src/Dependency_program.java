@@ -78,7 +78,7 @@ public class Dependency_program {
 
         // Injecting the dependency into MessageProcessor
         MessageProcessor messageProcessor = new MessageProcessor(emailService);
-        
+
         //performing messageProcessing
         messageProcessor.processMessage();
     }
